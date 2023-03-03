@@ -1,0 +1,372 @@
+.Hide-Button {
+
+  display: none;
+}
+.User-Page-Container{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+
+
+
+.User-Page-Button-Container{
+display: block;
+float: left;
+margin: 2em;
+height:25%;
+
+
+
+}
+
+.User-Page-ImageCollage-Container{
+    position: relative;
+    display: block;
+    bottom: 0;
+    right: 3em;
+    float: left;
+    width: 0;
+    top:10em;
+    margin: 2em;
+}
+
+
+#fixed-div-UserPurpleButton {
+  position: absolute;
+  top: 7em;
+  left: 80vw;
+  z-index: 1000;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+spann{
+  font-family: 'Luckiest Guy';
+
+  background-image:url('./Assets/backgroundGIF_AOWR.gif') ;
+  width: 18.75rem;
+  height: 100vh;
+  position: absolute;
+  overflow-x: hidden;
+ overflow-y: auto;
+  z-index: 1001;
+}
+
+.update-Profile{
+  font-family: 'Luckiest Guy';
+
+}
+
+.Update-bg{
+
+  font-family: 'Luckiest Guy';
+  background: rgb(120,197,214);
+  background: linear-gradient(112deg, rgba(120,197,214,1) 25%, rgba(121,194,103,1) 100%);;
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   z-index: 1003;
+
+
+
+}
+
+.Center-Logout-Container {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.LogOut-Center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  margin-top: .12em;
+}
+
+  /* User MENU */
+  .Usercontainer {
+    margin: 4.5rem 1.4rem;
+  }
+  
+/* User MENU  */
+  .Usercontainer a {
+    color: rgb(245, 214, 61)  ;
+    mix-blend-mode:  multiply;
+    text-decoration: none;
+    font-size: 8vw;
+    font-weight: 100;
+    display: inline-block;
+    margin:auto;
+    width:50%;
+   
+  }
+
+  .Update-Profile-Button-Container 
+  {
+  Position:fixed;
+  top: 1em;
+  margin-top: 1vh;
+  margin-left: 50vw;
+  width: 30%;
+  height:100%;
+  padding: auto;
+  z-index: 100002;
+
+}
+
+ 
+
+.Update-Profile-Button 
+{
+  position: fixed;
+  top:41vh;
+  left:41vw;
+  border-radius: 50px;
+  font-family: 'Luckiest Guy';
+  color: white; 
+  font-size:5vw;
+  text-align: center;
+  width:25vw;
+  cursor: pointer;
+  z-index: 100001;
+ 
+ }
+
+
+
+   
+  .Update-Profile-Blob
+  {
+ 
+  top:0;
+  left:0;
+  position: fixed;
+  width: 100vw;
+  height:100vh;
+  transform: scale3d(1, 1, 1);
+  animation: BlobbinTime 8s linear .5s infinite alternate;
+   }
+
+
+
+@keyframes BlobbinTime {
+  0% {
+ 
+    transform: scale3d(1, 1, 1);
+     
+    }
+  25% {
+    
+    transform: scale3d(1.3, 1.1, 2 );
+      
+    }
+    50% {
+   
+      transform: scale3d(1.34, 1.2, 2 );
+    }
+    75% {
+     
+      transform: scale3d(1.4, 1.3, 2 );
+    }
+    100% {
+      transform: scale3d(1.2, 1.4, 2 );
+    
+    }
+ 
+}
+
+.Profile-Picture-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+
+}
+
+.Profile-Picture-sizing{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .25em;
+  width: 70%;
+
+
+}
+
+
+.Profile-img-grid{
+
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3em;
+}
+.Profile-img-grid-IMG-Size{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.Update-Button-Sizing {
+
+  display: block;
+  margin-top: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 14vw;
+  height: auto;
+  cursor: pointer;
+  
+}
+
+.center-profilepic-username-container {
+  
+  margin: auto;
+  width: 100%;
+  height:auto;
+  padding: 10px;
+
+}
+
+.center-profilepic-username{
+
+  margin: auto;
+  width: 100%;
+  height:auto;
+  text-align: center;
+  font-size: 5vw;
+
+
+}
+
+.cursor{
+
+  cursor: pointer;
+
+  
+}
+
+
+.PENDING-pop-up-box {
+
+  position: fixed;
+  width: 35vw;
+  height: 38vh;
+  top: 50%;
+  left: 50%;
+  margin-top: -20vh; /* Negative half of height. */
+  margin-left: -18vw; /* Negative half of width. */
+  background-color:rgb(242, 140, 51); 
+  box-shadow: 10px 10px 350px rgb(245, 214, 61) ;
+  z-index: 100001;
+  border-radius: 50px;
+}
+
+.PENDING-pop-up-box-text {  
+  display: block;
+  color: white;
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  font-size: 3vw;
+  margin-left: 1vw;
+  margin-right:1vw;
+  margin-top:2em;
+  
+}
+
+.PENDING-pop-up-box-buttons {  
+  display: block;
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  margin-left: 1vw;
+  margin-right:1vw;
+  margin-top:4vh;
+
+  
+  
+}
+
+.PENDING-pop-up-box-buttons-colors {  
+  font-family: 'Luckiest Guy';
+  text-align: center;
+  font-size: 3vw;
+  text-decoration: none;
+  background-color:rgb(69, 155, 168) ; 
+  color: white;
+  border: none;
+  border-radius: 50px;
+  margin-left: .25em;
+  margin-right:.25em;
+  margin-top:.12em;
+ }
+
+ @media (max-width: 480px) {
+   .PENDING-pop-up-box {
+
+    position: fixed;
+    width: 70vw;
+    height: 25vh;
+    top: 50%;
+    left: 50%;
+    margin-top: -7vh; /* Negative half of height. */
+    margin-left: -35vw; /* Negative half of width. */
+    background-color:rgb(242, 140, 51) ; 
+    box-shadow: 10px 10px 350px rgb(245, 214, 61) ;
+    z-index: 100001;
+    border-radius: 50px;
+  }
+  
+  .PENDING-pop-up-box-text {  
+    display: block;
+    color: white;
+    font-family: 'Luckiest Guy';
+    text-align: center;
+    font-size: 8vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    margin-top:3vh;
+    
+  }
+  
+  .PENDING-pop-up-box-buttons {  
+    display: block;
+    font-family: 'Luckiest Guy';
+    text-align: center;
+    margin-left: 1vw;
+    margin-right:1vw;
+    margin-top:.25vh;
+    
+  
+    
+    
+  }
+  
+  .PENDING-pop-up-box-buttons-colors {  
+    font-family: 'Luckiest Guy';
+    text-align: center;
+    font-size: 8vw;
+    text-decoration: none;
+    background-color:rgb(69, 155, 168) ; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-left: .25em;
+    margin-right:.25em;
+    margin-top:.5em;
+   }
+  
+
+
+ }

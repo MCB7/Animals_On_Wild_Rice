@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap);
+
+
+html {
+  touch-action: none;
+ 
+  
+}
+  main {
+    display: flex;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap);
+  .error-style {
+
+   
+    color: white;
+    font-family: 'Luckiest Guy';
+    font-size: 3em;
+  }
+
+  
+    /* HAMBURGER MENU */
+  aside {
+    font-family: 'Luckiest Guy';
+ 
+    background-image:url('./Assets/pinktile.png') ;
+    width: 18.75rem;
+    height: 100vh;
+    position: absolute;
+   
+    z-index: 1001;
+  }
+
+  
+  /* HAMBURGER MENU */
+  .container {
+    margin: 4.5rem 1.4rem;
+  }
+  
+/* HAMBURGER MENU  */
+  .container a {
+    color: rgb(245, 214, 61);
+    mix-blend-mode: hard-light;
+    text-decoration: none;
+    font-size: 10vw;
+    font-weight: 100;
+    display: block;
+    margin: 27px;
+  }
+/* USER LOGOUT MENU */
+  .container b {
+    color: rgb(245, 214, 61);
+    text-align: center;
+    text-decoration: none;
+    font-size: 10vw;
+    font-weight: 100;
+    display: block;
+    margin: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 1.25rem;
+    border: none;
+    padding: 0.5rem 1rem;
+   
+    
+  }
+  
+  .Close-btn-home {
+    position: fixed;
+    left: 38vw;
+    top: 1%;
+    z-index: 1002;
+   
+    
+   
+  }
+
+  .Close-btn-User {
+    position: fixed;
+    left: 88vw;
+    top: 2%;
+    z-index: 1002;
+   
+    
+   
+  }
+

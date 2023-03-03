@@ -1,0 +1,124 @@
+
+.Options-Background {
+background-image: url('../Assets/GalleryGlitchBG.gif');
+height: 100vh;
+width:100vw;
+position: absolute;
+margin: 0;
+padding: 0px;
+
+}
+
+.Logout-Icon {
+    
+    position:fixed;
+    left:0;
+    top:0;
+    margin:1vw;
+    width:10vw;
+    height:auto;
+    z-index:10002;
+    cursor:pointer;
+
+}
+
+.ImageGrid-Open-Button-Container {
+
+    background-color: transparent;
+    font-size: 10em;
+    cursor: pointer;
+ 
+}
+
+.ImageGrid-Open-Button {
+
+    background: rgb(245,214,61);
+    background: linear-gradient(0deg, rgba(245,214,61,1) 0%, rgba(242,140,51,1) 29%, rgba(232,104,162,1) 55%, rgba(120,197,214,1) 96%);
+    box-shadow: 15px 25px 20px rgb(192, 98, 167) ;
+    border-color:rgb(232, 104, 162);
+    border-top-left-radius: 700px;
+    border-bottom-left-radius: 2000px;
+    border-top-right-radius: 2000px;
+    border-bottom-right-radius: 700px;
+    color:white;
+    width: 60vw;
+    height:auto;
+    text-align: center;
+    font-size:9vw;
+    margin: 7vh auto auto auto;
+    font-family: 'Luckiest Guy';
+    animation: morphin1 5s linear .5s infinite alternate;
+  
+
+
+}
+
+.Back-Button-Container {
+    position: fixed;
+    left:0;
+    top:0;
+    background-color:transparent;
+
+    height: auto;
+    width:auto;
+    border-radius: 50px;
+    z-index:10001
+}
+
+.Back-Button {
+    color:rgb(245, 214, 61);
+    font-size:7vw;
+    height: auto;
+    width:auto;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    top:0
+  
+}
+
+.DELETE-ImageGrid-Open-Button-Container {
+
+    background-color: transparent;
+    font-size: 10em;
+    cursor: pointer;
+ 
+}
+
+.DELETE-ImageGrid-Open-Button {
+
+    background: rgb(192,98,167);
+    background: linear-gradient(90deg, rgba(192,98,167,1) 0%, rgba(69,155,168,1) 23%, rgba(121,194,103,1) 49%, rgba(198,215,71,1) 72%);
+    box-shadow: 15px 25px 20px rgb(192, 98, 167) ;
+    border-color:rgb(232, 104, 162);
+    border-top-left-radius: 2000px;
+    border-bottom-left-radius: 700px;
+    border-top-right-radius: 700px;
+    border-bottom-right-radius: 2000px;
+    color:white;
+    width: 60vw;
+    height:auto;
+    text-align: center;
+    font-size:9vw;
+    margin: 8vh auto auto auto;
+    font-family: 'Luckiest Guy';
+    animation: morphin 5s linear .5s infinite alternate;
+  }
+
+
+  @keyframes morphin {
+    0%   { border-top-left-radius: 2000px;border-bottom-left-radius: 1000px; border-top-right-radius: 1000px; border-bottom-right-radius: 2000px;}
+    25%  {border-top-left-radius: 1000px;border-bottom-left-radius: 2000px; border-top-right-radius: 2000px; border-bottom-right-radius: 1000px;}
+    50%   { border-top-left-radius: 2000px;border-bottom-left-radius: 1000px; border-top-right-radius: 1000px; border-bottom-right-radius: 2000px;}
+    75%   {border-top-left-radius: 1000px;border-bottom-left-radius: 2000px; border-top-right-radius: 2000px; border-bottom-right-radius: 1000px;}
+    100%  { border-top-left-radius: 2000px;border-bottom-left-radius: 1000px; border-top-right-radius: 1000px; border-bottom-right-radius: 2000px;}
+  }
+
+  @keyframes morphin1 {
+    0%   {border-top-left-radius: 1000px;border-bottom-left-radius: 2000px; border-top-right-radius: 2000px; border-bottom-right-radius: 1000px;}
+    25%  { border-top-left-radius: 2000px;border-bottom-left-radius: 1000px; border-top-right-radius: 1000px; border-bottom-right-radius: 2000px;}
+    50%   {border-top-left-radius: 1000px;border-bottom-left-radius: 2000px; border-top-right-radius: 2000px; border-bottom-right-radius: 1000px;}
+    75%    { border-top-left-radius: 2000px;border-bottom-left-radius: 1000px; border-top-right-radius: 1000px; border-bottom-right-radius: 2000px;}
+    100%  {border-top-left-radius: 1000px;border-bottom-left-radius: 2000px; border-top-right-radius: 2000px; border-bottom-right-radius: 1000px;}
+  }

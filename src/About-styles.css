@@ -1,0 +1,679 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap);
+
+.background-image-first-section {
+    background-image: url(./Assets/about-tile-dot-pink.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: auto
+  }
+
+  .background-image-first-text-AOWR-section {
+  background: white;
+  mix-blend-mode: exclusion;
+  display: block;
+  margin: 15%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 12vh;
+  }
+
+  .first-text-AOWR-0 {
+    font-family: 'Luckiest Guy';
+    mix-blend-mode: exclusion;
+    color: rgb(191, 98, 166);
+    display: block;
+    margin: 25%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    font-size: 12vw;
+  }
+
+  
+ .first-text-AOWR-1 {
+  font-family: 'Luckiest Guy';
+  mix-blend-mode: exclusion;
+  color: rgb(232, 104, 162);
+  display: block;
+  margin: 25%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 12vw;
+}
+
+.first-text-AOWR-2 {
+  font-family: 'Luckiest Guy';
+  mix-blend-mode: exclusion;
+  color: rgb(121, 194, 103);
+  display: block;
+  margin: 25%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 12vw;
+}
+.first-text-AOWR-3 {
+  font-family: 'Luckiest Guy';
+  mix-blend-mode: exclusion;
+  color: rgb(197, 214, 71);
+  display: block;
+  margin: 25%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 12vw;
+}
+
+
+.first-text-AOWR-4 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(245, 214, 61);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+
+.first-text-AOWR-5 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(242, 140, 51);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+
+.first-text-AOWR-6 {
+  font-family: 'Luckiest Guy';
+  mix-blend-mode: exclusion;
+  color: rgb(69, 155, 168);
+  display: block;
+  margin: 25%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 12vw;
+  }
+
+  .first-text-AOWR-7 {
+    font-family: 'Luckiest Guy';
+    mix-blend-mode: exclusion;
+    color: rgb(120, 197, 214);
+    display: block;
+    margin: 25%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    font-size: 12vw;
+    }
+
+.mobile-text-AOWR-container {
+  display:none
+}
+
+.mobile-first-text-AOWR-0 {
+  font-family: 'Luckiest Guy';
+  mix-blend-mode: exclusion;
+  color: rgb(191, 98, 166);
+  display: block;
+  margin: 25%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: left;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  font-size: 12vw;
+}
+
+
+.mobile-first-text-AOWR-1 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(232, 104, 162);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+
+.mobile-first-text-AOWR-2 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(121, 194, 103);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+.mobile-first-text-AOWR-3 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(197, 214, 71);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+
+
+.mobile-first-text-AOWR-4 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(245, 214, 61);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+
+.mobile-first-text-AOWR-5 {
+font-family: 'Luckiest Guy';
+mix-blend-mode: exclusion;
+color: rgb(242, 140, 51);
+display: block;
+margin: 25%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: left;
+justify-content: left;
+align-items: left;
+text-align: left;
+font-size: 12vw;
+}
+
+
+@media only screen and (max-width: 675px) {
+  .mobile-text-AOWR-container {
+    display:flex
+  }
+}
+
+
+
+.second-text-AOWR-0 {
+  font-family: 'Luckiest Guy';
+  
+  color: rgb(191, 98, 166);
+  display: block;
+  margin: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: right;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+  font-size: 12vw;
+}
+
+.second-text-AOWR-1 {
+  font-family: 'Luckiest Guy';
+  color: rgb(232, 104, 162);
+  display: block;
+  margin: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: right;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+  font-size: 12vw;
+}
+
+.second-text-AOWR-2 {
+  font-family: 'Luckiest Guy';
+  color: rgb(121, 194, 103);
+  display: block;
+  margin: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: right;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+  font-size: 12vw;
+}
+.second-text-AOWR-3 {
+  font-family: 'Luckiest Guy';
+  color: rgb(197, 214, 71);
+  display: block;
+  margin: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: right;
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+  font-size: 12vw;
+}
+
+
+.second-text-AOWR-4 {
+  font-family: 'Luckiest Guy';
+color: rgb(245, 214, 61);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+}
+
+.second-text-AOWR-5 {
+  font-family: 'Luckiest Guy';
+color: rgb(242, 140, 51);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+
+.third-text-AOWR-0 {
+  font-family: 'Luckiest Guy';
+color: rgb(69, 155, 168);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.third-text-AOWR-1 {
+  font-family: 'Luckiest Guy';
+color: rgb(120, 197, 214);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.third-text-AOWR-2 {
+  font-family: 'Luckiest Guy';
+color: rgb(245, 214, 61);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.third-text-AOWR-4 {
+  font-family: 'Luckiest Guy';
+color: rgb(191, 98, 166);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.third-text-AOWR-5 {
+  font-family: 'Luckiest Guy';
+  color: rgb(232, 104, 162);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+.third-text-AOWR-6 {
+  font-family: 'Luckiest Guy';
+color: rgb(121, 194, 103);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.fourth-text-AOWR-0 {
+  font-family: 'Luckiest Guy';
+color: rgb(191, 98, 166);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.fourth-text-AOWR-1 {
+  font-family: 'Luckiest Guy';
+  color: rgb(232, 104, 162);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+.fourth-text-AOWR-2 {
+  font-family: 'Luckiest Guy';
+color: rgb(121, 194, 103);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.fourth-text-AOWR-3 {
+  font-family: 'Luckiest Guy';
+color: rgb(69, 155, 168);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.fourth-text-AOWR-4 {
+  font-family: 'Luckiest Guy';
+  color: rgb(242, 140, 51);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+.fourth-text-AOWR-5 {
+  font-family: 'Luckiest Guy';
+  color: rgb(197, 214, 71);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.fifth-text-AOWR-0 {
+  font-family: 'Luckiest Guy';
+color: rgb(69, 155, 168);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+
+.fifth-text-AOWR-1 {
+  font-family: 'Luckiest Guy';
+  color: rgb(242, 140, 51);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+.fifth-text-AOWR-2 {
+  font-family: 'Luckiest Guy';
+  color: rgb(197, 214, 71);
+display: block;
+margin: 50%;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: right;
+justify-content: right;
+align-items: right;
+text-align: right;
+font-size: 12vw;
+
+}
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 25%;
+    text-align: center;
+    border-radius: 100%;
+    
+  }
+
+  .card-MAKE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 25%;
+    text-align: center;
+    border-radius: 100%;
+    
+  }
+
+
+  
+  .parallax {
+    margin-right: 15%;
+  }
+
+  .parallax-MAKE {
+    margin-left: 15%;
+  }
+  .parallax-LOG {
+    margin-left: 15%;
+  }
+  
+  .sticky-MB {
+    margin-left: 15%;
+    background-image: url(./Assets/about-tile-orange-green.png);
+    background-repeat: repeat;
+  }
+  .sticky-MAKE {
+    margin-left: 65%;
+    background-image: url(./Assets/about-tile-lines.png);
+    background-repeat: repeat;
+  }
+
+  .sticky-LOG {
+    margin-left: 15%;
+    background-image: url(./Assets/about-tile-blue.png);
+    background-repeat: repeat;
+  }
+
+  .sticky-SEND {
+    margin-left: 65%;
+    background-image: url(./Assets/about-tile-yellow.png);
+    background-repeat: repeat;
+  }
+
+  .sticky-FRAME {
+    margin-left: 15%;
+    background-image: url(./Assets/supertile.png);
+    background-repeat: repeat;
+  }
+  .sticky-ARROW {
+    margin-left: 15%;
+    
+  }
+  
+
+  @media (max-width: 750px) {
+    .card {
+      width: 30%;
+    }
+  
+    .parallax {
+      margin-right: 1.5rem;
+    }
+  
+    .sticky {
+      margin-left: 1.5rem;
+    }
+  }
+  

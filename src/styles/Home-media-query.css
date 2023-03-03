@@ -1,0 +1,23 @@
+.Home-Desktop {
+display: block;
+
+}
+
+.Home-Mobile {
+display: none;
+
+}
+
+@media (min-width: 320px) and (max-width: 580px) {
+  
+    .Home-Desktop {
+        display: none;
+        
+        }
+        
+        .Home-Mobile {
+        display: block;
+        
+        }
+    
+  }

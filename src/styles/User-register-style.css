@@ -1,0 +1,332 @@
+.Center-Register-Title{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Luckiest Guy';
+    font-size: 2vw;
+    padding-bottom:1em;
+}
+
+.Center-Image-Register{
+display: block;
+width: 50%;
+margin-top:5em;
+
+
+}
+
+
+
+.Input-Container-1-Green-Box{
+background-color: rgb(192, 98, 167);
+background-image: url('../Assets/registerFormBackground.png');
+width: 40%;
+margin-top: auto;
+margin-bottom:auto;
+margin-left: auto;
+margin-right: auto;
+border-radius: 80px;
+
+
+}
+
+.Register-Spritemap-resizing {
+
+
+width:25vw;
+height:auto;
+
+}
+
+
+
+/* .fixed-div {
+position: absolute;
+top: 0;
+left:0;
+display: block;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:20em;
+width: 100%;
+
+z-index: 1000;
+} */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap);
+.input-email-Register[type=email], select {
+width: 75%;
+padding: 2vw;
+margin-top: 1vw;
+margin-bottom: 1vw;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 50px;
+box-sizing: border-box;
+font-size: 18px;
+}
+.input-username-Register[type=username], select {
+    width: 75%;
+    padding: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 18px;
+    }
+.input-password-Register[type=password], select {
+width: 75%;
+padding: 2vw;
+margin-top: 1vw;
+margin-bottom: 1vw;
+margin-right: auto;
+margin-left: auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 50px;
+box-sizing: border-box;
+font-size: 18px;
+}
+.button-submit-Register[type=submit] {
+width: 30%;
+font-family: 'Luckiest Guy';
+padding: 1vw;
+margin-top: 1vh;
+margin-bottom: 1vh;
+margin-right: auto;
+margin-left: auto;
+background-color: rgb(192, 98, 167);
+background-image: url('../Assets/loginbuttonBG.png');
+color: white;
+display: block;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+font-size: 2vw;
+  
+}
+
+.button-submit-Register[type=submit]:hover {
+background-color: rgb(232, 104, 162);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .Input-Container-1-Green-Box{
+        background-color: rgb(192, 98, 167);
+        background-image: url('../Assets/registerFormBackground.png');
+        width: 75%;
+        margin: auto;
+        border-radius: 50px;
+        padding-bottom: 15vw;
+        margin-top:5em;
+        }
+      
+    .input-email-Register[type=email], select {
+        width: 75%;
+        padding: 4vw;
+        margin-top: 10vw;
+        margin-bottom: 2vw;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-size: 18px;
+        }
+          
+    .input-username-Register[type=username], select {
+        width: 75%;
+        padding: 4vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-size: 18px;
+        }
+    .input-password-Register[type=password], select {
+        width: 75%;
+        padding: 4vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-size: 18px;
+        }
+    .button-submit-Register[type=submit] {
+        width: 50%;
+        font-family: 'Luckiest Guy';
+        padding: 2vw;
+        margin-top: 2vh;
+        margin-bottom: 2vw;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(192, 98, 167);
+        background-image: url('../Assets/loginbuttonBG.png');
+        color: white;
+        display: block;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 7vw;
+          
+        }
+        .Center-Image-Register{
+            display: block;
+            margin-top: 3vh;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            padding-top: 8vw;
+            }
+        
+            .Center-Register-Title{
+                margin: auto;
+                text-align: center;
+                color: white;
+                font-family: 'Luckiest Guy';
+                font-size: 5vw;
+              
+            }
+  }
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 812px) {
+    
+    .Center-Image-Register{
+        display: block;
+        width: 25%;
+        margin-top:1em;
+      
+        
+        
+        }
+  
+    .Input-Container-1-Green-Box{
+        background-color: rgb(192, 98, 167);
+        background-image: url('../Assets/registerFormBackground.png');
+        width: auto;
+        height:auto;
+        margin: auto;
+        width:50%;
+        border-radius: 50px;
+        padding-bottom: 0;
+        }
+
+        .input-email-Register[type=email], select {
+            width: 50%;
+            padding: 1vw;
+            margin-top: 1vw;
+            margin-bottom: 1;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            box-sizing: border-box;
+            font-size: 18px;
+            }
+              
+        .input-username-Register[type=username], select {
+            width: 50%;
+            padding: 1vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            box-sizing: border-box;
+            font-size: 18px;
+            }
+        .input-password-Register[type=password], select {
+            width: 50%;
+            padding: 1vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            box-sizing: border-box;
+            font-size: 18px;
+            }
+        .button-submit-Register[type=submit] {
+            width: 30%;
+            font-family: 'Luckiest Guy';
+            padding: 1vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: rgb(192, 98, 167);
+            background-image: url('../Assets/loginbuttonBG.png');
+            color: white;
+            display: block;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 3vw;
+              
+            }
+
+            .Center-Register-Title{
+                margin: auto;
+                text-align: center;
+                color: white;
+                font-family: 'Luckiest Guy';
+                font-size: 1em;
+                padding-bottom:0;
+            }
+            
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    
+    
+    
+    .Input-Container-1-Green-Box{
+        background-color: rgb(192, 98, 167);
+        background-image: url('../Assets/registerFormBackground.png');
+        width: 75%;
+        height:auto;
+        margin: auto;
+        border-radius: 50px;
+        padding-bottom: 2vw;
+        }
+  
+  /* CSS */
+  
+}

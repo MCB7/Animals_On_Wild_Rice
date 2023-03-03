@@ -1,0 +1,939 @@
+.Admin-Signin-Container {
+
+    width: 50vw;
+    height: 100vh;
+    background-color: transparent;
+    border-style: none;
+    overflow:hidden;
+    transform: translate(0, 0);
+   
+    position: fixed;
+    left: 50%;
+    top:10%;
+    z-index: 10001;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.Admin-Signin-Username-box{
+
+    
+    height:auto;
+    width:50vw;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Luckiest Guy';
+    font-size: 8vw;
+    color:white;
+
+
+}
+
+.Username-ADMIN-input {
+    width: 30vw;
+    height:auto;
+    font-size:3vw;
+    border-radius: 100px;
+    font-size: 5vw;
+  }
+
+.Admin-Signin-Password-box{
+
+
+    height:auto;
+    width:50vw;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Luckiest Guy';
+    font-size: 8vw;
+    color:white;
+  
+}
+
+.Password-ADMIN-input {
+    width: 30vw;
+    height:auto;
+    font-size:3vw;
+    border-radius: 100px;
+    font-size: 5vw;
+  }
+
+  .ADMIN-submit {
+
+    background-color: rgb(192, 98, 167) ;
+    background-image: url('../Assets/loginbuttonBG.png');
+    background-size: auto;
+    font-family: 'Luckiest Guy';
+    font-size: 6vw;
+    color:white;
+    height:auto;
+    width:auto;
+    margin-top:6vh;
+    border-radius: 100px;
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+.flex { /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .waves {
+    position:fixed;
+    width: 110vw;
+    height:15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    margin-left:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+    bottom:0
+  }
+
+  .waves-top {
+    position:fixed;
+    width: 110vw;
+    height:15vh;
+    margin-top:-7px; /*Fix for safari gap*/
+    margin-left:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+    top:100;
+    transform: rotate(180deg);
+  }
+
+  .waves-right {
+    position:fixed;
+    width: 110vw;
+    height:15vh;
+    margin-bottom:-7px; /*Fix for safari gap*/
+    margin-left:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+    bottom:0;
+    
+  }
+
+  .waves-top-right {
+    position:fixed;
+    width: 110vw;
+    height:15vh;
+    margin-top:-7px; /*Fix for safari gap*/
+    margin-left:-7px; /*Fix for safari gap*/
+    min-height:100px;
+    max-height:150px;
+    top:100;
+    transform: rotate(180deg);
+
+  }
+  
+  .content {
+    position:relative;
+    height:20vh;
+    text-align:center;
+    background-color: white;
+  }
+  
+  /* Animation */
+  
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  }
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
+  
+  /*Shrinking for mobile*/
+  @media (max-width: 700px) {
+    .waves {
+      height:40px;
+      min-height:40px;
+    }
+    .waves-top {
+        height:40px;
+        min-height:40px;
+      }
+      .waves-right {
+        height:40px;
+        min-height:40px;
+      }
+      .waves-top-right {
+          height:40px;
+          min-height:40px;
+        }
+
+ 
+  }
+
+
+
+
+.Blob-Container{
+    width: 50vw;
+    height: 100vh;
+    
+    border-style: none;
+    overflow:hidden;
+    transform: translate(0, 0);
+   
+    position: fixed;
+   
+    
+
+}
+
+
+.Blob-Container-right{
+    width: 50vw;
+    height: 100vh;
+    
+    border-style: none;
+    overflow:hidden;
+    transform: scaleX(-1);
+ 
+    position: fixed;
+    right:0;
+    }
+
+
+@keyframes Starz {
+    0% {
+        transform: rotate3d(1,1,1,9deg);
+        
+       
+      }
+    50% {
+        transform: rotate3d(1,1,1,-9deg);
+        
+      }
+      100% {
+        transform: rotate3d(1,1,1,9deg);
+        
+      }
+}
+
+@keyframes Sky-Blob {
+    0%  {border-radius: 263% 820% 206% 20%;}
+    10%  {border-radius: 263% 135% 206% 2%;}
+    30%  {border-radius: 263% 15% 22% 20%;}
+    50%  {border-radius: 263% 28% 60% 20%;}
+    70% {border-radius: 25% 870% 206% 20%;}
+    100%  {border-radius: 263% 820% 206% 20%;}
+    
+    
+
+    
+}
+
+.star {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 25vh;
+    left:15vw;
+    animation: Star 3.8s ease-in-out  infinite;
+    }
+.star-1 {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 35vh;
+    left:8vw;
+    animation: Star1 2.45s ease-in-out  infinite;
+    }
+.star-2 {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 20vh;
+    left:10vw;
+    animation: Star1 2s ease-in-out  infinite;
+    }
+.star-2-clone {
+    z-index: 1;
+    position: fixed;
+    width: 10vw;
+    height: 10vh;
+    top: 50vh;
+    left:.05vw;
+    animation: Star1 2s ease-in-out  infinite;
+    }
+.star-2-clone-2 {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 60vh;
+    left:8vw;
+    animation: Star1 1.5s ease-in-out  infinite;
+    }
+.star-2-clone-3 {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 50vh;
+    left:15vw;
+    animation: Star1 2s ease-in-out  infinite;
+    }
+.star-3 {
+    z-index: 1;
+    position: fixed;
+    width: 30vw;
+    height: 25vh;
+    top: 15vh;
+    left:20vw;
+    animation: Star2 3.72s ease-in-out  infinite;
+    }
+.star-3-clone {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 12.5vh;
+    top: 22vh;
+    left:10vw;
+    animation: Star2 2.1s ease-in-out  infinite;
+    }
+.star-3-clone-2 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 12.5vh;
+    top: 50vh;
+    left:30vw;
+    animation: Star2 2s ease-in-out  infinite;
+    }
+.star-3-clone-3 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 12.5vh;
+    top: 25vh;
+    left:5vw;
+    animation: Star2 2.4s ease-in-out  infinite;
+    }
+.star-3-clone-4 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 12.5vh;
+    top: 50vh;
+    left:15vw;
+    animation: Star2 1.89s ease-in-out  infinite;
+    }
+.star-3-clone-5 {
+    z-index: 1;
+    position: fixed;
+    width: 13.25vw;
+    height: 12.5vh;
+    top: 40vh;
+    left:5vw;
+    animation: Star2 2.3s ease-in-out  infinite;
+    }    
+.star-3-clone-6 {
+    z-index: 1;
+    position: fixed;
+    width: 14.75vw;
+    height: 12.5vh;
+    top: 50vh;
+    left:2vw;
+    animation: Star2 1.9s ease-in-out  infinite;
+    }   
+.star-3-clone-7 {
+    z-index: 1;
+    position: fixed;
+    width: 14vw;
+    height: 12.5vh;
+    top: 15vh;
+    left:9vw;
+    animation: Star2 1.4s ease-in-out  infinite;
+    }
+.star-3-clone-8 {
+    z-index: 1;
+    position: fixed;
+    width: 13vw;
+    height: 12.5vh;
+    top: 30vh;
+    left:2vw;
+    animation: Star2 1.3s ease-in-out  infinite;
+    }    
+.star-3-clone-9 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 12.5vh;
+    top: 60vh;
+    left:3vw;
+    animation: Star2 1.6s ease-in-out  infinite;
+    }                 
+.star-4 {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 32vh;
+    left:12vw;
+    animation: Star3 1.24s linear infinite;
+    }
+.star-5 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 15vh;
+    top: 15vh;
+    left:18vw;
+    animation: Star5 3.30s ease-in-out  infinite;
+    }
+
+.star-6 {
+    z-index: 1;
+    position: fixed;
+    width: 25vw;
+    height: 25vh;
+    top: 40vh;
+    left:19vw;
+    animation: Star5 2s  ease-in-out infinite;
+    } 
+.star-7 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 15vh;
+    top: 32vh;
+    left:9vw;
+    animation: Star5 2.9s  ease-in-out infinite;
+    } 
+    
+.star-8 {
+    z-index: 1;
+    position: fixed;
+    width: 15vw;
+    height: 15vh;
+    top: 50vh;
+    left:8vw;
+    animation: Star5 .9s  ease-in-out infinite;
+    } 
+    
+.star-9 {
+    z-index: 1;
+    position: fixed;
+    width: 8vw;
+    height: 8vh;
+    top: 24vh;
+    left:26vw;
+    animation: Star5 .75s  ease-in-out infinite;
+    }
+    
+.star-10 {
+    z-index: 1;
+    position: fixed;
+    width: 10vw;
+    height: 10vh;
+    top: 35vh;
+    left:32vw;
+    animation: Star5 .89s  ease-in-out infinite;
+    }   
+.star-10-clone {
+    z-index: 1;
+    position: fixed;
+    width: 10vw;
+    height: 10vh;
+    top: 35vh;
+    left:32vw;
+    animation: Star5 .60s  ease-in-out infinite;
+    }
+.star-10-clone-2 {
+    z-index: 1;
+    position: fixed;
+    width: 10vw;
+    height: 10vh;
+    top: 40vh;
+    left:1vw;
+    animation: Star5 .76s  ease-in-out infinite;
+    }
+.star-10-clone-3 {
+    z-index: 1;
+    position: fixed;
+    width: 12vw;
+    height: 13vh;
+    top: 18vh;
+    left:2vw;
+    animation: Star5 .69s  ease-in-out infinite;
+    }       
+     
+
+
+    
+
+
+        
+
+
+    @keyframes Star {
+        0% {
+            transform:  scale(0)
+            
+           
+          }
+        50% {
+            transform: scale(.75)
+            
+          }
+          100% {
+            transform:  scale(0)
+            
+          }
+    }
+
+    @keyframes Star1 {
+        0% {
+            transform:  scale(0)
+           
+          }
+        50% {
+            transform: scale(.5)
+            
+          }
+          100% {
+            transform:  scale(0)
+            
+          }
+    }
+    @keyframes Star2 {
+        0% {
+            transform:  scale(0)
+           
+          }
+        50% {
+            transform: scale(.55)
+            
+          }
+          100% {
+            transform:  scale(0)
+            
+          }
+    }
+
+    @keyframes Star3 {
+        0% {
+            transform:  scale(0)
+           
+          }
+        50% {
+            transform: scale(.35)
+            
+          }
+          100% {
+            transform:  scale(0)
+            
+          }
+    }
+
+    @keyframes Star5 {
+        0% {
+            transform:  scale(0)
+           
+          }
+        50% {
+            transform: scale(1)
+            
+          }
+          100% {
+            transform:  scale(0)
+            
+          }
+        } 
+
+.Yellow-Blob {
+    width: 12.5vw;
+    height: 18.75vh;
+    background-color: rgb(245, 214, 61);
+    animation: Sky-Blob 10s  cubic-bezier(.55,.5,.45,.5)  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+
+.Orange-Blob {
+    width: 18vw;
+    height: 25.5vh;
+    background-color: rgb(242, 140, 51);
+    animation: Sky-Blob 10s  cubic-bezier(.55,.5,.45,.5)  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+
+.Sky-Blob {
+    width: 23.5vw;
+    height: 32.25vh;
+    background-color: rgb(120, 197, 214);
+    animation: Sky-Blob 10s   cubic-bezier(.55,.5,.45,.5)   infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+
+.Blue-Blob {
+    width: 29vw;
+    height: 39vh;
+    background-color: rgb(69, 155, 168);
+    animation: Sky-Blob 10s  cubic-bezier(.55,.5,.45,.5)  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+
+.Lime-Blob {
+    width: 34.5vw;
+    height: 45.75vh;
+ 
+    background-color: rgb(198, 215, 71) ;
+    animation: Sky-Blob 10s  cubic-bezier(.55,.5,.45,.5)   infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }  
+    
+.Green-Blob {
+    width: 40vw;
+    height: 52.5vh;
+    background-color: rgb(121, 194, 103);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    } 
+.Pink-Blob {
+    width: 45.5vw;
+    height: 59.25vh;
+    background-color: rgb(232, 104, 162);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }  
+.Purple-Blob {
+    width: 51vw;
+    height: 66vh;
+    background-color: rgb(192, 98, 167);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Yellow-Blob-2 {
+    width: 56.5vw;
+    height: 72.75vh;
+    background-color:rgb(245, 214, 61); 
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }   
+.Orange-Blob-2 {
+    width: 62vw;
+    height:79.5vh;
+    background-color: rgb(242, 140, 51) ;
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }     
+.Sky-Blob-2 {
+    width: 67.5vw;
+    height:86.25vh;
+    background-color: rgb(120, 197, 214);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Blue-Blob-2 {
+    width: 73vw;
+    height:93vh;
+    background-color: rgb(69, 155, 168);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Lime-Blob-2 {
+    width: 78.5vw;
+    height:99.75vh;
+    background-color: rgb(198, 215, 71);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Green-Blob-2 {
+    width: 84vw;
+    height:106.5vh;
+    background-color: rgb(121, 194, 103);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Pink-Blob-2 {
+    width: 89.5vw;
+    height:113.25vh;
+    background-color: rgb(232, 104, 162);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Purple-Blob-2 {
+    width: 95vw;
+    height:120vh;
+
+    background-color: rgb(192, 98, 167);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Yellow-Blob-3 {
+    width: 100.5vw;
+    height:126.75vh;
+    background-color: rgb(245, 214, 61) ;
+    animation: Sky-Blob 10s   ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Sky-Blob-3 {
+    width: 106vw;
+    height:133.5vh;
+    background-color: rgb(120, 197, 214);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Orange-Blob-3 {
+    width: 111.5vw;
+    height:140.25vh;
+    background-color: rgb(242, 140, 51) ;
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }                                
+.Blue-Blob-3 {
+    width: 117vw;
+    height:147vh;
+    background-color: rgb(69, 155, 168);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }  
+.Green-Blob-3 {
+    width: 122.5vw;
+    height:153.75vh;
+    background-color: rgb(121, 194, 103);
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }    
+.Purple-Blob-3 {
+    width: 128vw;
+    height:160.5vh;
+    background-color: rgb(192, 98, 167) ;
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }  
+.lime-Blob-3 {
+    width: 133.5vw;
+    height:167.25vh;
+    background-color: rgb(198, 215, 71) ;
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    } 
+.Pink-Blob-3 {
+    width: 139vw;
+    height:174vh;
+    background-color: rgb(232, 104, 162) ;
+    animation: Sky-Blob 10s  ease-in-out  infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Yellow-Blob-4 {
+    width: 144.5vw;
+    height:180.75vh;
+    background-color: rgb(245, 214, 61) ;
+    animation: Sky-blob 10s infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Sky-Blob-4 {
+    width: 150vw;
+    height:187.5vh;
+    background-color: rgb(120, 197, 214);
+    animation: Sky-Blob 10s infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+.Orange-Blob-4 {
+    width: 155.5vw;
+    height:194.25vh;
+    background-color: rgb(242, 140, 51) ;
+    animation: Sky-Blob 10s infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }       
+.Blue-Blob-4 {
+    width: 161vw;
+    height:201vh;
+    background-color: rgb(69, 155, 168);
+    animation: Sky-Blob 10s infinite;
+    border-radius: 163% 20% 196% 20%;
+    margin-right: 10em;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }  
+    
+                      
+                
+
+
+
+
+    
+
+

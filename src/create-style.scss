@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  overflow-y: hidden;
+}
+
+body {
+
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: rgb(69, 155, 168); 
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  position: fixed;
+  z-index: 100;
+  top: 10em;
+  left: 3.5em;
+  transform: translate(-50%, -50%);
+  height:19em;
+}
+
+.menu-button {
+  align-items: center;
+  background: rgb(120, 197, 214) ;;
+  border: 0.1rem solid rgb(69, 155, 168); 
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  outline: none;
+  user-select: none;
+  width: 5rem;
+}
+
+.dropdown-container {
+  border-radius: 0.5rem;
+  box-shadow: 5px 10px 18px rgb(120, 197, 214) ;
+  overflow-x: hidden;
+  position: absolute;
+  top: .25rem;
+  left: 6rem;
+  transition: height 0.5s;
+
+  z-index: 200;
+ 
+  border: 0.2rem solid white;
+  background-color: rgb(255, 255, 255);
+}
+
+.dropdown {
+  align-items: flex-start;
+  display: flex;
+  height: 10rem;
+  position: relative;
+  transition: height 0.3s;
+  width: 20rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  height: 100%;
+  position: relative;
+  width: auto;
+    display: flex;
+ 
+
+}
+
+
+.slider-button-wrapper {
+  position: fixed;
+  z-index: 100;
+  top: 11.25em;
+  left: 45em;
+  transform: translate(-50%, -50%);
+  height:19em;
+}
+
